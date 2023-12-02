@@ -1,0 +1,53 @@
+# out directory with compiled classes
+out/
+
+# Executable Jar directory
+Executable*Jar/
+
+# ignore .jardesc files
+*.jardesc
+
+# prepare-project-for-win.bat file
+prepare-project-for-win.bat
+
+# test directory
+test/
+
+# Exclude the bat file to delete MAC OS files like .DS_Store
+prepare-project-for-win.bat
+
+# Exclude file that is over 100MB (Github limit)
+jlib/aspose-ocr-23.10.0.jar
+
+# GitHub blocks files larger than 100 MiB.
+# To track files beyond this limit, you must use Git Large File Storage (Git LFS)
+#
+# Step 1: Install Git LFG from https://git-lfs.com/
+#
+# Step 2: Go to the project directory (with the .git folder)
+#         $ cd <project directory>
+#
+# Step 3: Install lfs
+#         $ git lfs install
+#
+# Step 4: Track the large file
+#         E.g. for the following jar which is 270MB and is located in jlib:
+#         $ git lfs track "*.jar"
+#
+# Step 5: Make sure .gitattributes is tracked
+#         $ git add .gitattributes
+#
+# Step 6: Just commit and push to GitHub as you normally would
+#         For example, if your current branch is named main:
+#         $ git add -f jlib/aspose-ocr-23.10.0.jar
+#         (The -f is needed if the file is excluded by .gitignore)
+#
+# Step 7: Add a comment
+#         $ git commit -m "Added aspose-ocr-23.10.0.jar library"
+#
+# Optional: Double-check what you are about to push
+#           (filer=AM means Added and Modified files)
+#           $ git log --name-status --diff-filter=AM
+#
+# Step 8: Push the file
+#         $  git push https://charis:<access token>@github.com/charis/ImageToText.git --all

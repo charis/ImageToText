@@ -1,0 +1,1 @@
+GUI tool in Java that extracts the text from images (OCR).
