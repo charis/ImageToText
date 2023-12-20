@@ -2,7 +2,7 @@
 <!---   I   M   A   G   E      T   O      T   E   X   T   --->
 <!----------------------------------------------------------->
 <h1>
-    <img align="left" alt="Delve" width="40px" src="https://github.com/charis/resources/blob/main/images/image-to-text/image-to-text.png"/>Image-to-Text
+    <img align="left" alt="Image-to-Text" width="40px" src="https://github.com/charis/resources/blob/main/images/image-to-text/image-to-text.png"/>Image-to-Text
 </h1>
 Image-to-Text is an GUI application in Java that extracts the text from images (OCR).
 <br><br>
